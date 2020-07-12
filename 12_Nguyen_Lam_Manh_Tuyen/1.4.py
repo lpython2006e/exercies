@@ -3,7 +3,7 @@ print("Please input your number")
 end=input()
 sum=0
 while end.isdigit()==False:
-    print("Your input is not a number, please try again")
+    print("Your input is not a valid number, please try again")
     end=input()
 for i in range(start,int(end)+1):
     sum=sum+i
