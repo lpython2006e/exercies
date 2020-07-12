@@ -5,10 +5,17 @@
 
 
 sobimat = 1117
+cacsodanhap = set()
 while 1:
     a = int(input("nhap vao so: "))
+    cacsodanhap.add(a)
     if(a == sobimat):
         print("ban doan dung roi !")
         break
     else:
         print("ban doan sai roi! ")
+        if(a>sobimat):
+            print("ban nhap lon hon")
+        else:
+            print("ban nhap nho hon")
+
