@@ -1,3 +1,4 @@
+#Write a program that asks the user for a number n and prints the sum of the numbers 1 to n
 start=1
 print("Please input your number")
 end=input()

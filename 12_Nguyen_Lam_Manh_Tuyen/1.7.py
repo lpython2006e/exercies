@@ -1,3 +1,4 @@
+#Order the input string by ASC (a -> z, 0 -> 9) with any string
 str=[]
 digit=[]
 print("Please input your string")

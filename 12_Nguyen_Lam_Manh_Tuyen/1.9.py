@@ -1,3 +1,4 @@
+#Write a program that prints the next 20 leap years (enter year or if not, get current year as default)
 import datetime
 now=datetime.datetime.now()
 def leapyear(year):

@@ -25,16 +25,18 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f1d0efa-b84e-4786-be92-bacf55dc49e4" name="Default Changelist" comment="Push newer version">
-      <change afterPath="$PROJECT_DIR$/12_Nguyen_Lam_Manh_Tuyen/1.10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Nguyen_Lam_Manh_Tuyen/1.7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Nguyen_Lam_Manh_Tuyen/1.8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Nguyen_Lam_Manh_Tuyen/1.9.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/student-practices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/student-practices.iml" afterDir="false" />
+    <list default="true" id="5f1d0efa-b84e-4786-be92-bacf55dc49e4" name="Default Changelist" comment="Final 12/07/2020">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_Nguyen_Lam_Manh_Tuyen/1.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/12_Nguyen_Lam_Manh_Tuyen/1.1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_Nguyen_Lam_Manh_Tuyen/1.10.py" beforeDir="false" afterPath="$PROJECT_DIR$/12_Nguyen_Lam_Manh_Tuyen/1.10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_Nguyen_Lam_Manh_Tuyen/1.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/12_Nguyen_Lam_Manh_Tuyen/1.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_Nguyen_Lam_Manh_Tuyen/1.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/12_Nguyen_Lam_Manh_Tuyen/1.3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/12_Nguyen_Lam_Manh_Tuyen/1.4.py" beforeDir="false" afterPath="$PROJECT_DIR$/12_Nguyen_Lam_Manh_Tuyen/1.4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/12_Nguyen_Lam_Manh_Tuyen/1.5.py" beforeDir="false" afterPath="$PROJECT_DIR$/12_Nguyen_Lam_Manh_Tuyen/1.5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/12_Nguyen_Lam_Manh_Tuyen/1.6.py" beforeDir="false" afterPath="$PROJECT_DIR$/12_Nguyen_Lam_Manh_Tuyen/1.6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_Nguyen_Lam_Manh_Tuyen/1.7.py" beforeDir="false" afterPath="$PROJECT_DIR$/12_Nguyen_Lam_Manh_Tuyen/1.7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_Nguyen_Lam_Manh_Tuyen/1.8.py" beforeDir="false" afterPath="$PROJECT_DIR$/12_Nguyen_Lam_Manh_Tuyen/1.8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_Nguyen_Lam_Manh_Tuyen/1.9.py" beforeDir="false" afterPath="$PROJECT_DIR$/12_Nguyen_Lam_Manh_Tuyen/1.9.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594397379377</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Final 12/07/2020">
+      <created>1594549570882</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594549570882</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,7 +268,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Push" />
     <MESSAGE value="Push newer version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Push newer version" />
+    <MESSAGE value="Final 12/07/2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final 12/07/2020" />
   </component>
   <component name="WindowStateProjectService">
     <state x="669" y="115" key="#1.4" timestamp="1594394347106">
@@ -302,13 +312,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594526260172" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1594397480552">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1594549650105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594397480552" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594549650105" />
     <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594479922281">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594479922281" />
+    <state x="662" y="308" key="git4idea.merge.GitPullDialog" timestamp="1594549633113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="308" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594549633113" />
   </component>
 </project>

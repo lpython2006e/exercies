@@ -1,3 +1,7 @@
+#Make a program in Python, that solve quadratic equations
+#A.x2 + B.x1 + C = 0
+#Where A, B, C is real numbers (could be negative), find X.
+
 import math
 print("Quadratic equation: Ax\u00b2+Bx+C=0")
 while True:
