@@ -1,17 +1,19 @@
-#Write a function that returns the largest element in a list.
+# Write a function that returns the largest element in a list.
 
-def findmax():
-    lst=[]
+def getinput():
     while True:
-        try:
-            while True:
-                lst.append(int(input("Please input your list, press enter for each element \n")))
-        except ValueError:
-            print("Your input is not a valid number")
+        element=input("Please input your element \n")
+        if element!='':
+            lst.append(element)
         else:
+            print(lst)
             break
-    maxele = max(lst)
-    return maxele
-    print("Your input {} element, max elemen is {}".format(len(lst),maxele))
+    return lst
+def maxele(lst):
+    return (max(lst))
 
-findmax()
+
+lst=[]
+getinput()
+result = maxele(lst)
+print("Largest element in given list is {}".format(result))
