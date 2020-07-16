@@ -1,5 +1,6 @@
 #Write a function that computes the running total of a list.
 
+#get list from user input until none input
 def getinput():
     while True:
         element=input("Please input your element \n")
@@ -9,12 +10,15 @@ def getinput():
             print(lst)
             break
     return lst
-def oddlist(lst):
-    lst=lst[1::2]
-    return (lst)
-
+def running_sum(lst):
+    temp_lst=[]
+    total=0
+    for i in range(0,len(lst)):
+       total+=int(lst[i])
+       temp_lst.append(total)
+    return (temp_lst)
 
 lst=[]
 getinput()
-result = oddlist(lst)
-print("Element on odd position is {}".format(result))
+result = running_sum(lst)
+print("Running total is {}".format(result))
