@@ -1,0 +1,1 @@
+strings = input("Nhap vao sring: ")# sorts = sorted([strings[i:i+1] for i in range(len(strings))], reverse=True)# print("".join(sorts))number = ""character = ""for i in strings:    if(i.isnumeric()):        number += i    else:        character += i
