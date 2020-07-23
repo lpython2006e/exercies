@@ -1,6 +1,6 @@
 a=[]
 i=2020
-while i>2019:
+while 1:
     if i%4==0 and i%100!=0:
         a.append(i)
     if len(a)==20:
