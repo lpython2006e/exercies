@@ -53,4 +53,4 @@ class management:
         return name, birthday, email
 
 class ultil:
-    def validate_
+    def validate_name
