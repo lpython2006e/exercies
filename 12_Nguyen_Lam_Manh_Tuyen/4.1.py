@@ -7,5 +7,7 @@ class student:
         self.birthday=birthday
         self.classname=classname
 
+class class_list:
+    def
 student1=student("Tuyen","TuyenNguyen","1412","python")
 print(student1.name,student1.nickname,student1.birthday,student1.classname)
