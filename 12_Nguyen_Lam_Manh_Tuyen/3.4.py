@@ -28,7 +28,7 @@ def getinput():
 
 def multiple_input():
     name, birthday, email=[],[],[]
-    num=int(input("How many students do you want to add?\n"))
+    num=int(input(" How many students do you want to add?\n"))
     for i in range(0,num):
         temp=list(getinput())
         name.append(temp[0])

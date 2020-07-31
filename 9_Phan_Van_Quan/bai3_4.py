@@ -1,8 +1,7 @@
-#Write a program that allow user to enter classmate (name, Birthday, Email),
-# validate if enter values are valid format (limit length apply), else ask user to enter again per field
-# nhap name
-#limit length apply
+#Update previous one, allow to enter multiple classmate, at end, allow to save to file as CSV format
+
 import re
+import clevercsv
 
 limit_name = 7
 limit_birthday = 8
@@ -41,9 +40,5 @@ def input_classmate():
         print("ban nhap sai format roi")
         input_classmate()
 
+
 input_classmate()
-
-# chua in ra 1 luc nhieu thanh vien duoc
-
-
-
