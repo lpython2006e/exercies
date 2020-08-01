@@ -1,3 +1,6 @@
+
+
+
 class Student():
     def __init__(self, name, nick_name, birthday, cLass):
         self.name = name
@@ -5,11 +8,11 @@ class Student():
         self.birthday = birthday
         self.cLass = cLass
 
-
+#student la list
 class Class():
-    def __init__(self, CLass):
-        self.Class = CLass
-
+    def __init__(self, CLass, student):
+        self.CLass = CLass
+        self.student = student
 
 class Student_Management():
     list_student = []

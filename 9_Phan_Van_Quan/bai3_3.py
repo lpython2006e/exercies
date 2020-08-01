@@ -43,7 +43,6 @@ def input_classmate():
 
 input_classmate()
 
-# chua in ra 1 luc nhieu thanh vien duoc
 
 
 

@@ -1,9 +1,8 @@
-class animal():
-    name = ''
-    age = 0
-    def __init__(self, name = '', age = 0):
+class natural()
+    animal = "dong vat"
+    plant = "thuc vat"
+    def __init__(self, name ):
         self.name = name
-        self.age = age
     def show(self):
         print('my name is ', self.name)
     def ages(self):
@@ -26,3 +25,13 @@ mydog = dog('lucky')
 mydog.show()
 mydog.run()
 mydog.go()
+
+print(animal.age)
+animal.age = 40
+buf = animal()
+
+print(buf.age)
+
+buf.age = 100
+print(buf.age)
+print(animal.age)
