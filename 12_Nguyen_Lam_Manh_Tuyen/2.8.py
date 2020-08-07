@@ -14,3 +14,5 @@ def on_all(lists):
             if int(num) == num and num != 0.0:
                 result.append(int(num))
     return result
+list_1= [1,2,3,4,5,6,7,8,9,7,5,4,6,7,10101]
+print(on_all(list_1))
