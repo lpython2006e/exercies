@@ -1,0 +1,38 @@
+.important {
+    border: 1px solid red;
+    background: pink;
+}
+
+.highlight {
+    border-bottom: 1px solid #e6db55;
+    padding: 5px;
+    list-style: none;
+}
+
+.background {
+    background-color: #FFF7DF;
+}
+
+a {
+    color: #00c;
+    text-decoration: none;
+}
+
+.email {
+    padding-right: 20px;
+    background: url(images/mail.png) no-repeat right center;
+}
+
+.ebook {
+    padding-right: 20px;
+    background: url(images/pdf.png) no-repeat right center;
+}
+
+.hyperlink {
+    padding-right: 20px;
+    background: url(images/external.png) no-repeat right center;
+}
+
+.ajax-test {
+    background-color: #FFAB68;
+}
