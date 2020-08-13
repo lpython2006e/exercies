@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CRUD-Python2006e</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="card text-center">
+        <div class="card-header text-primary ">
+            CRUD Students Python2006 Example using JQuery
+        </div>
+        <form class="form-inline">
+            <div class="row row-12">
+                <div class="col col-6">
+                    <div class="form-group my-3">
+                        <label class="col-sm-2">ID:</label>
+                        <input type="text" name="id" class="form-control col-sm-4" placeholder="PYTHON2006-01"
+                               required="">
+                        <label class="col-sm-2">Name:</label>
+                        <input type="text" name="name" class="form-control col-sm-4" placeholder="NguyenVan A"
+                               required="">
+                    </div>
+                </div>
+                <div class="col col-6">
+                    <div class="form-group my-3">
+                        <label class="col-sm-2">Birthday:</label>
+                        <input type="date" name="birthday" class="form-control col-sm-4" required="">
+                        <label class="col-sm-2">Sex:</label>
+                        <select type="text" name="sex" class="form-control col-sm-4">
+                            <option value="0">Nữ</option>
+                            <option value="1">Nam</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group my-3">
+                <label class="col-sm-2">Email:</label>
+                <input type="text" name="email" class="form-control col-sm-4" placeholder="nguyenvana@gmail.com"
+                       required="">
+                <label class="col-sm-2">Age:</label>
+                <input name="age" class="form-control col-sm-4" required="" disabled>
+            </div>
+            <div class="form-group my-3">
+                <label class="col-sm-4">State:</label>
+                <select name="state" class="form-control col-sm-8" required="">
+                    <option value="0">Đang học</option>
+                    <option value="1">Đi làm</option>
+                </select>
+
+            </div>
+
+            <div class="card-body text-muted col-12">
+                <button type="submit" class="btn btn-success save-btn ">Add</button>
+            </div>
+        </form>
+    </div>
+    <br>
+</div>
+<div class="container-fluid">
+    <table class="table table-bordered data-table">
+
+        <thead class="text-primary thead-light">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Birthday</th>
+            <th>Sex</th>
+            <th>Email</th>
+            <th>Age</th>
+            <th>State</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+
+
+        <tbody>
+
+        <tr data-id="PYTHON2006E-01" data-name="Nguyen Van A" data-birthday="20/10/1999"
+            data-sex="Nam" data-email="nguyenvana@gmail.com " data-age="21" data-state="Đang học">
+            <td>PYTHON2006E-01</td>
+            <td>Nguyễn Văn A</td>
+            <td>20/10/1999</td>
+            <td>Nam</td>
+            <td>nguyenvana@gmail.com</td>
+            <td>21</td>
+            <td>Đang học</td>
+            <td>
+                <button class="btn btn-info btn-xs btn-edit">Edit</button>
+                <button
+                        class="btn btn-danger btn-xs btn-delete">Delete
+                </button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<script src="js/jquery-3.5.1.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script
+<script src="js/bootstrap.min.js"></script>
+<script src="js/crud.js"></script>
+</body>
+</html>
