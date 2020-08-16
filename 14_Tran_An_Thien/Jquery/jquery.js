@@ -46,11 +46,10 @@ $(document).ready(function () {
  */
 
 $(document).ready(function () {
-    $("#driver").click(function (event) {
+    $("#driver").click(function () {
 
-        $.getJSON('/jquery/result.json', function (jd, status, jqXHR) {
-            console.log(status);
-            console.log(jqXHR);
+        $.getJSON('result.json', function (jd) {
+
             $('#stage').html('<p> Name: ' + jd.name + '</p>');
             $('#stage').append('<p>Age : ' + jd.age + '</p>');
             $('#stage').append('<p> Sex: ' + jd.sex + '</p>');

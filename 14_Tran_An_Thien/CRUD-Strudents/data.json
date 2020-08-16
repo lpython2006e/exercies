@@ -1,0 +1,29 @@
+[
+  {
+    "id": "LPYTHON2006E-01",
+    "name": "Nguyen Van A",
+    "birthday": "22/2/1999",
+    "sex": "nam",
+    "email": "someone@email.com",
+    "age": 21,
+    "state": "dang hoc"
+  },
+  {
+    "id": "LPYTHON2006E-02",
+    "name": "Nguyen Van B",
+    "birthday": "22/2/1998",
+    "sex": "nữ",
+    "email": "someone@email.com",
+    "age": 22,
+    "state": "dang hoc"
+  },
+  {
+    "id": "LPYTHON2006E-03",
+    "name": "Nguyen Van C",
+    "birthday": "22/2/1997",
+    "sex": "nữ",
+    "email": "someone@email.com",
+    "age": 23,
+    "state": "Đi làm"
+  }
+]
