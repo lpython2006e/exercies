@@ -2,3 +2,24 @@
 (This question is tricky if your programming language makes it difficult to pass functions as arguments.)"""
 
 
+def is_number(S):
+    #if s < 0:
+        #print("False")
+    #else:
+        try:
+            float(s)
+            return True
+        except ValueError:
+            pass
+
+        try:
+            import unicodedata
+            unicodedata.numeric(s)
+            return True
+        except (TypeError, ValueError):
+            pass
+        return False
+
+s = input()
+
+is_number(s) 

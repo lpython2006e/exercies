@@ -14,6 +14,9 @@ check = _check_existence(filename)
 if check:
     f = open(filename, "r")
     content = f.read()
+    #todo: nen xuong dong
     print("this is content ", content)
 else:
     print("file does not exist")
+
+

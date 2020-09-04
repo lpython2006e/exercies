@@ -31,25 +31,31 @@ def _get_list(a):
 
 
 def _validate_student_info(mylist: list):
-    for i in range(0, len(mylist)):
-        name = _check_valid_name(mylist[0])
-        if name is False:
-            new_name = input("please input new name,birthday and email for Student: ")
-            birth = _check_valid_birthday(mylist[1])
-        elif birth is False:
-            new_birth = input("please input new birth")
-            birth = _check_valid_birthday(new_birth)
+    name = _check_valid_name(mylist[0])
+    birth = _check_valid_birthday(mylist[1])
+    email = _check_valid_email(mylist[2])
+    if name is False:
+        _validate_student_info(input_student_detail())
+    if birth is False:
+        _validate_student_info(input_student_detail())
+    if email is False:
+        _validate_student_info(input_student_detail())
+    return mylist
+
+
+def input_student_detail():
+    student = input("Please input name, birthday and email for Student: ")
+    student_details = _get_list(student)
+    return student_details
 
 
 def _input_student_info(num):
     for i in range(num):
-        student = input("Please input name, birthday and email for Student: ")
-        student_details = _get_list(student)
-        _validate_student_info(student_details)
+        student_details = _validate_student_info(input_student_detail())
         outputFile = open("huong.csv", "a", newline='')
         outputWriter = csv.writer(outputFile)
         outputWriter.writerow(student_details)
 
 
 f = open("huong.csv", "a+")
-_input_student_info(5)
+_input_student_info(2)
