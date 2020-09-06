@@ -9,3 +9,5 @@ def check_existence_of_element(a,b):
 item = 1
 mylist = [1, 4, 5, 100, 2, 1, -1, -7]
 check_existence_of_element(item,mylist)
+
+#index = -1

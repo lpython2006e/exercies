@@ -4,6 +4,7 @@ from datetime import datetime
 import re
 
 
+# todo: naming convention: length (120 max),first-last-middle(opt)
 def _check_valid_name(a):
     list = ["Huong", " Thach", "Dung", "Thien"]
     if a not in list:
@@ -12,6 +13,7 @@ def _check_valid_name(a):
         return True
 
 
+# todo: y/m/d - base on locate N-US
 def _check_valid_birthday(b):
     try:
         datetime.strptime(b, '%m/%d/%y')
@@ -19,10 +21,12 @@ def _check_valid_birthday(b):
         return False
     return True
 
-
+#todo: https://emailregex.com/
 def _check_valid_email(c):
     return bool(re.search(r"^[\w\.\+\-]+\@[\w]+\.[a-z]{2,3}$", c))
 
+
+# todo: while is not valid not.
 
 name = input("Please input your classmate name: ")
 while _check_valid_name(name) is False:

@@ -1,26 +1,35 @@
 var data = JSON.parse(localStorage.getItem('save'))
 if (data === null) {
-    data = [];
+    data=[]
+    // res=$.getJSON('test.json', function(jd) {
+    //     let text=res.responseJSON
+    //     // for(var i=0;)
+    //     var newdata={"htsv":jd.htsv,"ns": jd.ns,"gt": jd.gt,"email": jd.email,"tuoi": jd.tuoi,"tt": jd.tt} 
+    //     data.push(newdata)
+    // });
+
 }
 $(document).ready(function () {
-    // load data
+
+
     var tableBody = $('#tBody');
 
     function render() {
         tableBody.empty();
         let currentIndex = 0;
+        
         $.each(data, function (index, item) {
             currentIndex++;
             tableBody.append(`
-                <tr id="tr${currentIndex}">
-                   <td>${currentIndex}</td>
-                   <td id="name${currentIndex}">${item.htsv}</td>
-                   <td id="birthday${currentIndex}">${item.ns}</td>
-                   <td id="mail${currentIndex}">${item.email}</td>
-                   <td id="age${currentIndex}">${item.tuoi}</td>
-                   <td id="sex${currentIndex}">${item.gt}</td>
-                   <td id="status${currentIndex}">${item.tt}</td>
-                   <td>
+                <tr id="tr${currentIndex}" class="row">
+                   <td class="col-sm-12 col-md-6 col-lg-1">${currentIndex}</td>
+                   <td id="name${currentIndex}" class="col-sm-12 col-md-6 col-lg-2">${item.htsv}</td>
+                   <td id="birthday${currentIndex}" class="col-sm-12 col-md-6 col-lg-2">${item.ns}</td>
+                   <td id="mail${currentIndex}" class="col-sm-12 col-md-6 col-lg-2">${item.email}</td>
+                   <td id="age${currentIndex}" class="col-sm-12 col-md-6 col-lg-1">${item.tuoi}</td>
+                   <td id="sex${currentIndex}" class="col-sm-12 col-md-6 col-lg-1">${item.gt}</td>
+                   <td id="status${currentIndex}" class="col-sm-12 col-md-6 col-lg-1">${item.tt}</td>
+                   <td class="col-sm-12 col-md-6 col-lg-2">
                       <button id="btn${currentIndex}" class="btn-yes"><span><i class="fas fa-pen"></i></span></button>
                       <button id="btn-remove${currentIndex}" class="btn-remove"><span><i class="fas fa-trash"></i></span></button>
                       <button id="show${currentIndex}" class="btn-show"><span><i class="fas fa-check"></i></span></button>
@@ -145,6 +154,7 @@ $(document).ready(function () {
             "tt": ``
         };
         data.push(dataNew);
+        localStorage.setItem('save', JSON.stringify(data))
         render();
     });
 });

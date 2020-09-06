@@ -8,3 +8,5 @@ def reversved_list(a):
 mylist = [1, 4, 5, 100, 2, 1, -1, -7]
 new = reversved_list(mylist)
 print("The reverse list is ", new)
+
+#solution 2: negative position

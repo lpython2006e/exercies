@@ -10,6 +10,8 @@
 	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
 	<!-- Jquery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -20,16 +22,22 @@
 <body>
 	<button id="addItem">Add</button>
 <table>
-	<tr>
-		<th>#</th>
-		<th>Name</th>
-		<th>Birthday</th>
-		<th>Email</th>
-		<th>Age</th>
-		<th>Sex</th>
-		<th>Status</th>
-		<th>Active</th>
-	</tr>
+	<thead>
+		<tr class="row">
+			<th class="col-sm-12 col-md-6 col-lg-1">#</th>
+			<th class="col-sm-12 col-md-6 col-lg-2">Name</th>
+			<th class="col-sm-12 col-md-6 col-lg-2">Birthday</th>
+			<th class="col-sm-12 col-md-6 col-lg-2">Email</th>
+			<th class="col-sm-12 col-md-6 col-lg-1">Age</th>
+			<th class="col-sm-12 col-md-6 col-lg-1">Sex</th>
+			<th class="col-sm-12 col-md-6 col-lg-1">Status</th>
+			<th class="col-sm-12 col-md-6 col-lg-2">Active</th>
+		</tr>
+	</thead>
+	<tbody id="tBody">
+		
+	</tbody>
+
 
 <!-- 	<tr id="tr1">
 		<td>1</td>
