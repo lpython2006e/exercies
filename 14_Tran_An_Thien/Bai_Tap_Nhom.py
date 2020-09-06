@@ -9,48 +9,31 @@
 # Xác định danh sách ( person_list ).
 # Mở tệp csv.
 # Tạo một csv.reader.
-# Lặp lại qua các hàng.
-# Chuyển đổi int thành float.
-# Tạo một Person thể hiện và truyền tên và số.
+# Lặp lại qua các item.
+# Tạo một Person thể hiện và truyền item.
 # Cuối cùng nối ví dụ person này vào personlist_list.
 
+# csv, paratext, pandas
+# Delimiter
 
 import csv
 
 
-# class Person:
-#
-#     def __init__(self, stt, ten, tuoi):
-#         self.stt = stt
-#         self.ten = ten
-#         self.tuoi = tuoi
-#
-#
-# person_list = []
-#
-# with open('dulieu.csv', newline='') as csv_file:
-#     reader = csv.reader(csv_file)
-#     next(reader, None)  # Skip the header.
-#     # Unpack the row directly in the head of the for loop.
-#     for stt, ten, tuoi in reader:
-#
-#         # Now create the Person instance and append it to the list.
-#         person_list.append(Person(stt, ten, tuoi))
-# print(person_list)
-
-
 class Person:
-    def __init__(self, STT_Class, Ten_Class, Tuoi_Class):
-        self.stt = STT_Class
-        self.ten = Ten_Class
-        self.tuoi = Tuoi_Class
+    def __init__(self, stt_class, ten_class, tuoi_class):
+        self.stt = stt_class
+        self.ten = ten_class
+        self.tuoi = tuoi_class
 
 
+person = Person('', '', '')
 person_list = []
 with open('dulieu.csv', 'r') as file:
     reader = csv.reader(file)
     next(reader, None)
-    for STT, Ten, Tuoi in reader:
-        person_list.append(Person(STT, Ten, Tuoi))
+    for item in reader:
+        person = item
+        person_list.append(item)
+        print(person)
 
-        print(STT, Ten, Tuoi)
+    print(person_list)

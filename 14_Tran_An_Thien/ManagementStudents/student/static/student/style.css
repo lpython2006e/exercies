@@ -1,0 +1,9 @@
+#content {
+    height: 100px;
+    width: 100px;
+    background-color: #20c997;
+}
+
+.important {
+    color: #336699;
+}
